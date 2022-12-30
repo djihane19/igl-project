@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+/* --------------------------- MOBILE VERSION ------------------------------ */
+.page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75em;
+}
+
+
+.cover {
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    height: 70%;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2%;
+    
+}
+
+hr{width:120PX;
+}
+.alt-login {
+    width: 80%;
+    height: 4em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.alt-login div {
+    width: 47.5%;
+    height: 70%;
+    border-radius: 0.25em;
+    background-color: black;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+
+
+input {
+    border: none;
+    background-color: rgb(229, 226, 226);
+    width: 80%;
+    height: 5%;
+    border-radius: 0.25em;
+    text-align: center;
+    padding: 2em;
+    font-size: 0.75em;
+}
+
+input:focus {
+    outline-color: #e20112;
+}
+
+.login-btn {
+    width: 80%;
+    height: 2em;
+    background-color:  #e20112;
+    display: flex;
+    color:antiquewhite;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+
+.login-btn:hover { transform: scale(1.1);
+}
+
+.text {
+    position: relative;
+    font-size: 70%;
+   
+}
+
+.hide {
+    position: absolute;
+    transform: scale(0);
+}
+
+a.l{
+    font-style: normal;
+    text-decoration: none;
+    color:gray;
+}
+a:hover{color:#e20112;}
+.d{
+    display: flex;
+    align-items: center;
+    width:90%;
+    margin:auto;
+    justify-items: center;
+   
+}
+.RED {
+    width: 20%;
+    height: 70%;
+    border-radius: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../icons/google.png');
+    background-color: rgb(107, 105, 105);
+    align-items: center;
+    cursor: pointer;
+    border:none;
+}
+.RED:hover { transform: scale(1.1);background-color:#e20112;}
+.green {
+        width: 20%;
+        height: 70%;
+        border-radius: 100%;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url('../icons/return.png');
+        background-color: rgb(107, 105, 105);
+        align-items: center;
+        cursor: pointer;
+}
+.green:hover { transform: scale(1.1);background-color:green}
+.blue {
+    width: 20%;
+    height: 70%;
+    border-radius: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../icons/facebooks.png');
+    background-color: rgb(107, 105, 105);
+    align-items: center;
+    cursor: pointer;
+}
+.blue:hover { transform: scale(1.1);background-color:rgb(13, 85, 167)}
+
+@media only screen and (max-width:320px) {
+    .cover{width : 80vw;
+    height: 50vh;}
+   
+    
+    
+}
+@media only screen and (min-width:320px) {
+    .cover{width : 80vw;
+          height: 50vh;
+    }
+    
+
+   
+    
+}
+@media only screen and (min-width:411px) {
+    .cover{width : 80vw;
+    height: 60vh;
+    }
+    
+    
+    
+}
+@media only screen and (min-width:768px) {
+    .cover{width : 80vw;
+    height: 50vh;}
+    
+    
+}
+@media only screen and (min-width:1024px) {
+    .cover{width : 30vw;
+    height: 80vh;}
+    }
+    
+    @media only screen and (min-width:1280px) {
+        .cover{width : 30vw;
+        height: 80vh;}
+        }
+        
